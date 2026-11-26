@@ -4,9 +4,63 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="color-scheme" content="light dark" />
-<meta name="description" content="Rowan — Venetian plaster, wood graining, marbling, decorative painting and gilding in Charleston, SC." />
+<meta name="description" content="Rowan Fine Finishing is a decorative finishing business in Charleston, SC offering Venetian plaster, wood graining, marbling, decorative painting and gilding for homes and commercial spaces." />
+<meta name="robots" content="index, follow" />
+<meta name="author" content="Rowan Fine Finishing" />
+<link rel="canonical" href="https://rowan.fenhoff.com/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Rowan Fine Finishing" />
+<meta property="og:title" content="Rowan Fine Finishing — Decorative Finishes in Charleston, SC" />
+<meta property="og:description" content="Rowan Fine Finishing — Venetian plaster, wood graining, marbling, decorative painting and gilding in Charleston, SC." />
+<meta property="og:url" content="https://rowan.fenhoff.com/" />
+<meta property="og:image" content="https://rowan.fenhoff.com/assets/intro-painting.jpg" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Rowan Fine Finishing — Decorative Finishes in Charleston, SC" />
+<meta name="twitter:description" content="Venetian plaster, wood graining, marbling, decorative painting and gilding in Charleston, SC by Rowan Fine Finishing." />
+<meta name="twitter:image" content="https://rowan.fenhoff.com/assets/intro-painting.jpg" />
+<meta name="geo.region" content="US-SC" />
+<meta name="geo.placename" content="Charleston" />
 <link rel="icon" href="data:," />
-<title>Rowan — Venetian Plaster, Marbling &amp; Decorative Finishes in Charleston, SC</title>
+<title>Rowan Fine Finishing — Venetian Plaster, Marbling &amp; Decorative Finishes in Charleston, SC</title>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://rowan.fenhoff.com/#business",
+  "name": "Rowan Fine Finishing",
+  "alternateName": "Rowan Fine Finishing Charleston",
+  "description": "Rowan Fine Finishing is a decorative finishing business in Charleston, SC offering Venetian plaster, wood graining, marbling, decorative painting and gilding.",
+  "url": "https://rowan.fenhoff.com/",
+  "email": "rowanfinefinishing@gmail.com",
+  "image": "https://rowan.fenhoff.com/assets/intro-painting.jpg",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Charleston",
+    "addressRegion": "SC",
+    "addressCountry": "US"
+  },
+  "areaServed": [
+    { "@type": "City", "name": "Charleston" },
+    { "@type": "AdministrativeArea", "name": "Charleston County, SC" },
+    "Lowcountry, South Carolina"
+  ],
+  "founder": { "@type": "Person", "name": "Rowan" },
+  "knowsAbout": ["Venetian plaster", "Wood graining", "Marbling", "Faux marble", "Faux onyx", "Decorative painting", "Gilding", "Gold leaf"],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Decorative finishing services",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Venetian plaster" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wood graining" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Marbling" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Decorative painting" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gilding" } }
+    ]
+  }
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -61,8 +115,10 @@
   header.site{position:sticky;top:0;z-index:40;background:color-mix(in srgb, var(--bg) 88%, transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
   .nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 0}
   .brand{display:flex;flex-direction:column;line-height:1.1;text-decoration:none;color:var(--ink)}
-  .brand strong{font-family:var(--font);font-size:1.28rem;font-weight:700;letter-spacing:-.01em}
-  .brand span{font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .brand-name{display:flex;flex-direction:column;line-height:1.05}
+  .brand-first{font-family:var(--font);font-size:1.65rem;font-weight:700;letter-spacing:-.01em;color:var(--ink)}
+  .brand-rest{font-family:var(--font);font-size:1.05rem;font-weight:600;letter-spacing:.02em;color:var(--ink);margin-top:3px}
+  .brand-loc{font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-top:5px}
   .nav-links{display:flex;align-items:center;gap:4px}
   .nav-links a{color:var(--ink-2);text-decoration:none;font-weight:600;font-size:.98rem;padding:10px 12px;border-radius:8px}
   .nav-links a:hover{background:var(--surface-2);color:var(--ink)}
@@ -199,9 +255,9 @@
 
 <header class="site">
   <div class="wrap nav">
-    <a class="brand" href="#top" aria-label="Rowan — home">
-      <strong>Rowan</strong>
-      <span>Charleston, South Carolina</span>
+    <a class="brand" href="#top" aria-label="Rowan Fine Finishing — home">
+      <strong class="brand-name"><span class="brand-first">Rowan</span><span class="brand-rest">Fine Finishing</span></strong>
+      <span class="brand-loc">Charleston, South Carolina</span>
     </a>
     <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
       <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
@@ -437,7 +493,7 @@
 
 <footer>
   <div class="wrap foot">
-    <span><strong style="color:var(--ink)">Rowan</strong> · Charleston, SC</span>
+    <span><strong style="color:var(--ink)">Rowan Fine Finishing</strong> · Charleston, SC</span>
     <span><a href="mailto:rowanfinefinishing@gmail.com">rowanfinefinishing@gmail.com</a> · <a href="#work">Portfolio</a> · <a href="#contact">Contact</a></span>
   </div>
 </footer>
